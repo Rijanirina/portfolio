@@ -47,7 +47,7 @@ export default function Home(props) {
                 <button
                   className='outline-1 outline-white mx-auto p-4 w-1/2 font-bold hover:bg-white hover:text-neutral-900 '
                   onClick={async () => {
-                    axios.get('http://localhost:3000/lirecv');
+                    axios.get('https://portfolio-wmd4.onrender.com/lirecv');
                   }}
                 >
                   Telecharger CV
@@ -57,7 +57,9 @@ export default function Home(props) {
                 <button
                   className='outline-1 outline-white mx-auto p-4 w-1/2 font-bold hover:bg-white hover:text-neutral-900 '
                   onClick={async () => {
-                    axios.get('http://localhost:3000/lireDiplomeLicence');
+                    axios.get(
+                      'https://portfolio-wmd4.onrender.com/lireDiplomeLicence'
+                    );
                   }}
                 >
                   Telecharger Attestation de diplome LICENCE
@@ -67,7 +69,9 @@ export default function Home(props) {
                 <button
                   className='outline-1 outline-white mx-auto p-4 w-1/2 font-bold hover:bg-white hover:text-neutral-900 '
                   onClick={async () => {
-                    axios.get('http://localhost:3000/lireDiplomeBacc');
+                    axios.get(
+                      'https://portfolio-wmd4.onrender.com/lireDiplomeBacc'
+                    );
                   }}
                 >
                   Telecharger diplome Baccalaureat serie C
@@ -77,7 +81,9 @@ export default function Home(props) {
                 <button
                   className='outline-1 outline-white mx-auto p-4 w-1/2 font-bold hover:bg-white hover:text-neutral-900 '
                   onClick={async () => {
-                    axios.get('http://localhost:3000/lireDiplomeDelf');
+                    axios.get(
+                      'https://portfolio-wmd4.onrender.com/lireDiplomeDelf'
+                    );
                   }}
                 >
                   Telecharger Attestation de diplome DELF B2
@@ -88,7 +94,7 @@ export default function Home(props) {
                   className='outline-1 outline-white mx-auto p-4 w-1/2 font-bold hover:bg-white hover:text-neutral-900 '
                   onClick={async () => {
                     axios.get(
-                      'http://localhost:3000/lireCertificatDeScolariteM2'
+                      'https://portfolio-wmd4.onrender.com/lireCertificatDeScolariteM2'
                     );
                   }}
                 >
