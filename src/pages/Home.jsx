@@ -47,7 +47,14 @@ export default function Home(props) {
                 <button
                   className='outline-1 outline-white mx-auto p-4 w-1/2 font-bold hover:bg-white hover:text-neutral-900 '
                   onClick={async () => {
-                    axios.get('https://portfolio-wmd4.onrender.com/lirecv');
+                    axios
+                      .get('https://portfolio-wmd4.onrender.com/lirecv')
+                      .then(async () => {
+                        console.log('OKKK');
+                      })
+                      .catch(async (err) => {
+                        console.log(err);
+                      });
                   }}
                 >
                   Telecharger CV
